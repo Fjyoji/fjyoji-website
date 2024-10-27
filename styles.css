@@ -54,9 +54,10 @@ header{
 }
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 75%;
+    height: 80%;
 }
 .article{
     background-color: rgba(255, 255, 255, 0.8);
@@ -64,15 +65,17 @@ main{
     border: 5px solid white;
     height: 400px;
 }
-#left{
-    width: 65%;
-    margin-right: 5%;
+#top{
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
 }
-#right{
-    width: 30%;
+#bottom{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 40%;
 }
 a{
     margin-bottom: 10px;
